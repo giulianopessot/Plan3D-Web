@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan3D - Ottimizzazione Carico e Logistica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-blue-600">Plan3D</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#features" class="hover:text-blue-600 transition">Funzionalità</a>
+                <a href="#ai" class="hover:text-blue-600 transition">AI & Innovazione</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contatti</a>
+            </div>
+            <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">Scarica App</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-blue-900 text-white py-20 overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Pianifica il tuo carico in 3D con precisione chirurgica.
+                </h1>
+                <p class="text-xl mb-8 text-blue-100">
+                    Ottimizza lo spazio, calcola i pesi sugli assi e garantisci la massima sicurezza stradale con l'aiuto dell'intelligenza artificiale.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
+                        Scopri di più
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Placeholder per immagine App -->
+                <div class="bg-gray-800 rounded-3xl p-4 shadow-2xl border-4 border-gray-700">
+                    <div class="bg-blue-600 w-64 h-96 rounded-2xl flex items-center justify-center">
+                         <i class="fas fa-truck-loading text-7xl text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L100 0 L100 100 Z" fill="white"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Funzionalità -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-16 text-gray-800">Caratteristiche Principali</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-cubes"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Visualizzazione 3D</h3>
+                    <p class="text-gray-600">Posiziona i colli nel vano di carico con un'interfaccia 3D intuitiva. Ruota, sposta e organizza in tempo reale.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-weight-hanging"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Distribuzione Pesi</h3>
+                    <p class="text-gray-600">Calcolo istantaneo del baricentro e del peso su ogni singolo asse per evitare sovraccarichi e sanzioni.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-microphone"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Comandi Vocali</h3>
+                    <p class="text-gray-600">Inserisci le dimensioni dei colli e le quantità usando la tua voce, senza staccare le mani dal lavoro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Section -->
+    <section id="ai" class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <div class="text-blue-600 text-5xl mb-6"><i class="fas fa-robot"></i></div>
+                    <h2 class="text-3xl font-bold mb-6">Configurazione Veicoli Assistita da AI</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        Non perdere tempo a cercare schede tecniche. Inserisci il modello del tuo mezzo e la nostra AI caricherà automaticamente dimensioni, pesi e configurazione degli assi.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Database di migliaia di veicoli (Iveco, Scania, Mercedes...)</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Configurazione automatica delle ralle e degli assi motori</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 bg-white p-10 rounded-2xl shadow-xl">
+                    <div class="space-y-4">
+                        <div class="h-4 bg-gray-200 rounded w-3/4"></div>
+                        <div class="h-4 bg-gray-200 rounded w-1/2"></div>
+                        <div class="h-20 bg-blue-50 border-2 border-blue-200 rounded flex items-center justify-center text-blue-400">
+                            Analisi AI in corso...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-6">Pronto a ottimizzare la tua logistica?</h2>
+            <p class="text-gray-400 mb-8">Plan3D è lo strumento definitivo per trasportatori e magazzinieri.</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="hover:text-blue-400 transition text-2xl"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-blue-400 transition text-2xl"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">© 2026 Plan3D. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Stili personalizzati per Plan3D */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animazione semplice per la hero */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-content {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Effetti hover sulle card delle feature */
+.feature-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
